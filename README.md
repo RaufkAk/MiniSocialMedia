@@ -14,6 +14,7 @@ Mini Social Media App, Flutter ile geliştirilen ve Firebase servisleri ile dest
 - **Flutter** (Dart)
 - **Firebase Authentication**
 - **Firebase Firestore**
+<img width="328" alt="Image" src="https://github.com/user-attachments/assets/fca059b4-bf53-4c4b-a6d5-0eeb4b8b670c" />
 
 🔐 Login Page (login_page.dart)
 
