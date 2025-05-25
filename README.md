@@ -1,16 +1,19 @@
 # mini_social_media
 
-Social Media App
+Mini Social Media App, Flutter ile geliştirilen ve Firebase servisleri ile desteklenen temel bir sosyal medya uygulamasıdır. Kullanıcılar hesap oluşturabilir, giriş yapabilir ve gönderi paylaşabilir.
 
-## Getting Started
+## 🚀 Özellikler
 
-This project is a starting point for a Flutter application.
+- 🔐 Kullanıcı kaydı ve giriş (Firebase Authentication)
+- 📝 Gönderi oluşturma (Firestore’a kayıt)
+- 📰 Ana sayfada gönderi listeleme
+- 📱 Modern ve responsive Flutter arayüzü
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Kullanılan Teknolojiler
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter** (Dart)
+- **Firebase Authentication**
+- **Firebase Firestore**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
