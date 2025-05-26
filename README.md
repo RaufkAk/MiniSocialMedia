@@ -168,4 +168,39 @@ This page displays the profile information of the currently logged-in user, incl
 
 <img width="328" alt="Ekran Resmi 2025-05-26 01 04 17" src="https://github.com/user-attachments/assets/a772a533-4f91-42ad-9811-30fc55de370f" />
 
+## 👥 Users Page (`users_page.dart`)
+
+### Purpose
+
+This page displays a real-time list of all registered users fetched from the Firestore "Users" collection. It allows browsing users with their usernames and emails.
+
+### Features
+
+- Uses a `StreamBuilder` to listen to real-time updates from Firestore's "Users" collection.  
+- Shows a loading indicator while data is being fetched.  
+- Handles errors gracefully by displaying a message to the user.  
+- Displays a scrollable list of users using a custom list tile widget (`MyListTile`).  
+- Includes a custom back button (`MyBackButton`) for navigation.
+
+### Components Used
+
+- `FirebaseFirestore` to stream user documents.  
+- `StreamBuilder` for real-time Firestore updates.  
+- Custom widgets: `MyBackButton`, `MyListTile`.  
+- `displayMessageToUser()` helper function for error notifications.
+
+### UI Overview
+
+- Vertical column layout including:  
+  - Back button at the top-left with padding.  
+  - Spacer between the back button and the user list.  
+  - Expanded `ListView` showing all users with username as the title and email as the subtitle in each list tile.
+
+---
+
+### Screenshot
+
+
+<img width="308" alt="Ekran Resmi 2025-05-26 00 09 43" src="https://github.com/user-attachments/assets/1885e149-5da2-4c66-8f23-b09fda60d170" />
+
 
