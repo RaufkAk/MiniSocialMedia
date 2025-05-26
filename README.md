@@ -58,6 +58,7 @@ This page allows users to log in using their email and password via Firebase Aut
 ### Screenshot
 
 <img width="328" alt="Ekran Resmi 2025-05-26 01 04 17" src="https://github.com/user-attachments/assets/c8c0e1e9-1f3f-4a4a-aadb-0757988c55f4" />
+<img width="305" alt="Ekran Resmi 2025-05-26 03 23 20" src="https://github.com/user-attachments/assets/aeb4ddbc-7e17-424b-9e35-dd5b33ce884a" />
 
 
 ## 📝 Register Page (`register_page.dart`)
@@ -95,6 +96,7 @@ This page allows users to create a new account by providing a username, email, a
 
 ### Screenshot
 <img width="324" alt="Ekran Resmi 2025-05-26 00 06 42" src="https://github.com/user-attachments/assets/4c3965de-6aec-4c6f-ba20-20a7db0a265f" />
+<img width="305" alt="Ekran Resmi 2025-05-26 03 23 53" src="https://github.com/user-attachments/assets/7302590f-a8da-4602-b7af-5acadedcad65" />
 
 ## 🏠 Home Page (`home_page.dart`)
 
@@ -174,6 +176,7 @@ This page displays the profile information of the currently logged-in user, incl
 ### Screenshot
 
 <img width="328" alt="Ekran Resmi 2025-05-26 01 04 17" src="https://github.com/user-attachments/assets/a772a533-4f91-42ad-9811-30fc55de370f" />
+<img width="303" alt="Ekran Resmi 2025-05-26 03 25 45" src="https://github.com/user-attachments/assets/ccc325f4-6c93-4a16-9936-7e1bc6b56f19" />
 
 ## 👥 Users Page (`users_page.dart`)
 
@@ -209,5 +212,6 @@ This page displays a real-time list of all registered users fetched from the Fir
 
 
 <img width="308" alt="Ekran Resmi 2025-05-26 00 09 43" src="https://github.com/user-attachments/assets/1885e149-5da2-4c66-8f23-b09fda60d170" />
+<img width="306" alt="Ekran Resmi 2025-05-26 03 26 14" src="https://github.com/user-attachments/assets/bf3e770b-4932-4cbd-82f2-102f14c9aa7e" />
 
 
