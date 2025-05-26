@@ -56,7 +56,7 @@ This page allows users to log in using their email and password via Firebase Aut
 
 ### Screenshot
 
-<img width="328" alt="Ekran Resmi 2025-05-26 01 04 17" src="https://github.com/user-attachments/assets/c8c0e1e9-1f3f-4a4a-aadb-0757988c55f4" />
+<img width="323" alt="Ekran Resmi 2025-05-26 00 05 27" src="https://github.com/user-attachments/assets/b0937e6a-fc31-4740-ba32-0798c39f9737" />
 <img width="305" alt="Ekran Resmi 2025-05-26 03 23 20" src="https://github.com/user-attachments/assets/aeb4ddbc-7e17-424b-9e35-dd5b33ce884a" />
 
 
