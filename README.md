@@ -1,27 +1,26 @@
 # mini_social_media
 
-Mini Social Media App is a basic social media application developed with Flutter and powered by Firebase services. Users can create accounts, log in, and share posts.
+Mini Social Media is a simple yet powerful social media application built with Flutter and Firebase. It enables users to register, log in, create and share posts in real-time. The app boasts a clean, modern design that adapts seamlessly to both light and dark themes.
 
 ## 🚀 Features
 
-- 🔐 User registration and login (Firebase Authentication)
-- 📝 Creating posts (saved to Firestore)
-- 📰 Listing posts on the home page
-- 📱 Modern and responsive Flutter UI
+- 🔐 User registration and login via Firebase Authentication  
+- 📝 Create and publish posts saved securely in Firestore  
+- 📰 Real-time feed displaying posts from all users  
+- 📱 Responsive Flutter UI with smooth user experience  
+- 🌗 Full support for Dark Mode and Light Mode, adapting automatically to device settings  
 
 ## 🛠️ Technologies Used
 
-- Flutter (Dart)  
-- Firebase Authentication  
-- Firebase Firestore  
-
+- Flutter (Dart) for cross-platform mobile development  
+- Firebase Authentication for secure user management  
+- Firebase Firestore for scalable, real-time database functionality  
 
 ## 🎨 Theme Support
 
-- The app supports **Dark Mode** and **Light Mode**.  
-- Theme changes automatically based on the user’s device settings.  
-- Additional UI for switching themes manually can be added if desired.  
-
+- The app automatically switches between Dark and Light themes based on the device’s system preferences.  
+- The UI elements are designed to look consistent and clear in both themes.  
+- Manual theme toggle functionality can be easily added for enhanced user control.
 ---
 
 ## 🔐 Login Page (`login_page.dart`)
