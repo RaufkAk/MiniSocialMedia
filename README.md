@@ -50,7 +50,8 @@ This page allows users to log in using their email and password via Firebase Aut
 
 ### Screenshot
 
-![Login Screen](https://github.com/user-attachments/assets/29c63826-c0eb-4c2d-9cd8-e3a0880418fd)
+<img width="328" alt="Ekran Resmi 2025-05-26 01 04 17" src="https://github.com/user-attachments/assets/c8c0e1e9-1f3f-4a4a-aadb-0757988c55f4" />
+
 
 ## 📝 Register Page (`register_page.dart`)
 
