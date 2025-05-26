@@ -1,45 +1,45 @@
-# mini_social_media
+mini_social_media
 
-Mini Social Media App, Flutter ile geliştirilen ve Firebase servisleri ile desteklenen temel bir sosyal medya uygulamasıdır. Kullanıcılar hesap oluşturabilir, giriş yapabilir ve gönderi paylaşabilir.
+Mini Social Media App is a basic social media application developed with Flutter and powered by Firebase services. Users can create accounts, log in, and share posts.
 
-## 🚀 Özellikler
+🚀 Features
+	•🔐 User registration and login (Firebase Authentication)
+	•📝 Creating posts (saved to Firestore)
+	•📰 Listing posts on the home page
+	•📱 Modern and responsive Flutter UI
 
-- 🔐 Kullanıcı kaydı ve giriş (Firebase Authentication)
-- 📝 Gönderi oluşturma (Firestore’a kayıt)
-- 📰 Ana sayfada gönderi listeleme
-- 📱 Modern ve responsive Flutter arayüzü
+🛠️ Technologies Used
+	•Flutter (Dart)
+	•Firebase Authentication
+	•Firebase Firestore
 
-## 🛠️ Kullanılan Teknolojiler
-
-- **Flutter** (Dart)
-- **Firebase Authentication**
-- **Firebase Firestore**
-<img width="323" alt="Image" src="https://github.com/user-attachments/assets/29c63826-c0eb-4c2d-9cd8-e3a0880418fd" />
+⸻
 
 🔐 Login Page (login_page.dart)
 
-📌 Purpose:
+Purpose
 
-This page allows users to log in to the app using their email and password via Firebase Authentication.
+This page allows users to log in using their email and password via Firebase Authentication.
 
-🚀 Features:
-	•	Authenticates users using FirebaseAuth.signInWithEmailAndPassword
-	•	Displays a loading indicator while logging in
-	•	Shows error messages with a custom helper function displayMessageToUser
+Features
+	•	Authenticates users with FirebaseAuth.signInWithEmailAndPassword
+	•	Shows a loading spinner while signing in
+	•	Displays error messages using a custom helper function displayMessageToUser
 	•	Provides navigation to the Register page
-	•	Includes a “Forgot Password?” text (not functional yet)
+	•	Includes a “Forgot Password?” prompt (not yet functional)
 
-🛠️ Components Used:
-	•	MyTextfield – Custom text input widget for email and password fields
+Components Used
+	•	MyTextfield – Custom input widget for email and password fields
 	•	MyButton – Custom styled login button
 	•	FirebaseAuth – Firebase authentication service
-	•	showDialog – Displays loading spinner during sign-in
-	•	displayMessageToUser() – Shows auth errors to the user
+	•	showDialog – Displays loading indicator during login process
+	•	displayMessageToUser() – Shows authentication error messages to the user
 
-💡 UI Summary:
-	•	A minimal and clean interface with a user icon
-	•	Title: “MINI SOCIAL MEDIA”
-	•	Login form with email and password
-	•	“Don’t have an account?” message with Register Here navigation
+UI Overview
+	•	Clean and minimal interface featuring a user icon
+	•	Title text: MINI SOCIAL MEDIA
+	•	Login form with email and password fields
+	•	“Don’t have an account?” prompt with Register Here navigation link
 
-
+<img width="323" alt="Image" src="https://github.com/user-attachments/assets/29c63826-c0eb-4c2d-9cd8-e3a0880418fd" />
+ 
