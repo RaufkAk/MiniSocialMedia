@@ -128,3 +128,44 @@ This is the main feed page where users can create new posts and view posts share
   <img width="320" alt="Ekran Resmi 2025-05-26 00 09 02" src="https://github.com/user-attachments/assets/2e50f4ee-609e-441f-8c55-24d656964acc" />
 </div>
 
+## 👤 Profile Page (`profile_page.dart`)
+
+### Purpose
+
+This page displays the profile information of the currently logged-in user, including their username, email, and a list of their posts. User data is fetched asynchronously from Firestore, and posts are streamed in real-time.
+
+### Features
+
+- Fetches and displays user details (`username`, `email`) from Firestore using `FutureBuilder`.  
+- Shows a loading spinner while user data is being fetched.  
+- Handles errors gracefully when fetching user data.  
+- Displays the user's posts in real-time using a `StreamBuilder` connected to Firestore.  
+- Includes a custom back button (`MyBackButton`) for easy navigation.  
+- Shows posts with a custom list tile (`MyListTile`), displaying post message and user email.
+
+### Components Used
+
+- `FirebaseAuth` to get the currently authenticated user.  
+- `FirebaseFirestore` to retrieve user profile data and posts.  
+- `FutureBuilder` for asynchronous user data fetching.  
+- `StreamBuilder` for real-time updates of user posts.  
+- Custom widgets: `MyBackButton`, `MyListTile`.  
+- `FirestoreDatabase` class that provides a stream of user posts.
+
+### UI Overview
+
+- Scrollable column layout including:  
+  - Back button at top-left corner.  
+  - Profile icon placeholder with primary theme color background.  
+  - Username displayed in bold, large font.  
+  - User email shown in smaller, grey-colored text.  
+  - Section header titled **My Posts**.  
+  - Fixed-height list showing user's posts with message and user email.
+
+---
+
+### Screenshot
+
+<img width="328" alt="Ekran Resmi 2025-05-26 01 04 17" src="https://github.com/user-attachments/assets/a772a533-4f91-42ad-9811-30fc55de370f" />
+
+
