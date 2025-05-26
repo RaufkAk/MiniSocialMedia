@@ -135,6 +135,9 @@ This is the main feed page where users can create new posts and view posts share
 <div style="display: flex; gap: 12px; justify-content: center; align-items: flex-start;">
   <img width="320" alt="Ekran Resmi 2025-05-26 00 08 35" src="https://github.com/user-attachments/assets/3f38d5ba-559e-40fb-9676-074daeab0a6f" />
   <img width="320" alt="Ekran Resmi 2025-05-26 00 09 02" src="https://github.com/user-attachments/assets/2e50f4ee-609e-441f-8c55-24d656964acc" />
+  <img width="308" alt="Ekran Resmi 2025-05-26 03 24 43" src="https://github.com/user-attachments/assets/571b190f-e865-40f9-90cf-ab536e5530c7" />
+<img width="304" alt="Ekran Resmi 2025-05-26 03 25 04" src="https://github.com/user-attachments/assets/4b42f528-d2e3-4915-8141-65dfb1f61030" />
+
 </div>
 
 ## 👤 Profile Page (`profile_page.dart`)
