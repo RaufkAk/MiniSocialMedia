@@ -15,7 +15,7 @@ Mini Social Media App is a basic social media application developed with Flutter
 - Firebase Authentication  
 - Firebase Firestore  
 
----
+
 ## 🎨 Theme Support
 
 - The app supports **Dark Mode** and **Light Mode**.  
