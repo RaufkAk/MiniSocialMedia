@@ -89,5 +89,41 @@ This page allows users to create a new account by providing a username, email, a
 ### Screenshot
 <img width="324" alt="Ekran Resmi 2025-05-26 00 06 42" src="https://github.com/user-attachments/assets/4c3965de-6aec-4c6f-ba20-20a7db0a265f" />
 
+## 🏠 Home Page (`home_page.dart`)
+
+### Purpose
+
+This is the main feed page where users can create new posts and view posts shared by others in real-time. It integrates with Firestore to read and write posts.
+
+### Features
+
+- Allows users to write and post messages using a text input and a post button  
+- Posts are saved to Firestore via a dedicated `FirestoreDatabase` class  
+- Displays a real-time list of posts using `StreamBuilder` to listen to Firestore updates  
+- Shows a loading indicator while posts are loading  
+- Displays a friendly message when there are no posts available  
+- Includes a navigation drawer (`MyDrawer`) for app-wide navigation  
+
+### Components Used
+
+- `MyTexfield` – Custom input widget for entering new post messages  
+- `MyPostButton` – Custom button widget to submit new posts  
+- `MyListTile` – Custom list tile widget to display individual posts with message and user email  
+- `StreamBuilder` – Flutter widget to build UI based on real-time Firestore data stream  
+- `FirestoreDatabase` – Custom class handling Firestore read/write operations  
+
+### UI Overview
+
+- Simple, clean layout with an AppBar titled **F E E D**  
+- Text input and post button aligned horizontally at the top  
+- Scrollable list of posts below, showing message text and user email  
+- Drawer menu accessible via AppBar  
+
+---
+
+### Screenshot
+
+
+<img width="320" alt="Ekran Resmi 2025-05-26 00 08 35" src="https://github.com/user-attachments/assets/3f38d5ba-559e-40fb-9676-074daeab0a6f" /><img width="325" alt="Ekran Resmi 2025-05-26 00 09 02" src="https://github.com/user-attachments/assets/2e50f4ee-609e-441f-8c55-24d656964acc" />
 
 
