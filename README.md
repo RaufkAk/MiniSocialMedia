@@ -51,3 +51,42 @@ This page allows users to log in using their email and password via Firebase Aut
 ### Screenshot
 
 ![Login Screen](https://github.com/user-attachments/assets/29c63826-c0eb-4c2d-9cd8-e3a0880418fd)
+
+## 📝 Register Page (`register_page.dart`)
+
+### Purpose
+
+This page allows users to create a new account by providing a username, email, and password. It uses Firebase Authentication for user registration and Firestore to store user profile data.
+
+### Features
+
+- Registers new users with `FirebaseAuth.createUserWithEmailAndPassword`
+- Validates password confirmation to ensure both passwords match
+- Shows a loading spinner during registration process
+- Displays error messages using a custom helper function `displayMessageToUser`
+- Creates a user document in Firestore with UID, email, username, and registration timestamp
+- Provides navigation to the Login page
+
+### Components Used
+
+- `MyTextfield` – Custom input widget for username, email, password, and password confirmation fields  
+- `MyButton` – Custom styled register button  
+- `FirebaseAuth` – Firebase authentication service  
+- `FirebaseFirestore` – Firestore database for storing user profiles  
+- `showDialog` – Displays loading indicator during registration  
+- `displayMessageToUser()` – Shows registration error messages to the user  
+
+### UI Overview
+
+- Clean and minimal interface featuring a user icon  
+- Title text: **MINI SOCIAL MEDIA**  
+- Registration form with username, email, password, and confirm password fields  
+- “Already have an account? Log in here.” link for navigating back to Login page  
+
+---
+
+### Screenshot
+<img width="324" alt="Ekran Resmi 2025-05-26 00 06 42" src="https://github.com/user-attachments/assets/4c3965de-6aec-4c6f-ba20-20a7db0a265f" />
+
+
+
