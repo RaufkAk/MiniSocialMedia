@@ -124,6 +124,7 @@ This is the main feed page where users can create new posts and view posts share
 ### Screenshot
 
 
-<img width="320" alt="Ekran Resmi 2025-05-26 00 08 35" src="https://github.com/user-attachments/assets/3f38d5ba-559e-40fb-9676-074daeab0a6f" /><img width="325" alt="Ekran Resmi 2025-05-26 00 09 02" src="https://github.com/user-attachments/assets/2e50f4ee-609e-441f-8c55-24d656964acc" />
+<img width="320" alt="Ekran Resmi 2025-05-26 00 08 35" src="https://github.com/user-attachments/assets/3f38d5ba-559e-40fb-9676-074daeab0a6f" />                                     
+<img width="325" alt="Ekran Resmi 2025- 05-26 00 09 02" src="https://github.com/user-attachments/assets/2e50f4ee-609e-441f-8c55-24d656964acc" />
 
 
